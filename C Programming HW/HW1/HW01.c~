@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <math.h>
+
+#define WORKING_HOURS 184	
+#define BHP 6	/* Base Hourly Payment */ 
+#define ADDITIONAL_PAY_MULT 1.5
+#define LOPM 0.8 /* Linear Overtime Payment Multiplier */
+#define QOPM 0.15 /* Quadratic Overtime Payment Multiplier */
+#define WDOM 2	/* Weekday Overtime */
+#define WEOM 3	/* Weekday Overtime Multiplier */
+
+int
+main(void)
+{
+	double salary,
+			normalPayment, overtimePayment,
+			salaryPerHour,
+			experiencePoint,
+			workingYears,
+			numberOfFinishedProjects,
+			opb,	/* Overtime Payment Base */
+			weo,	/* Weekend Overtime */
+			wdo;	/* Weekday Overtime */
+
+			
+			salaryPerHour = BHP +
+			
+			normalPayment = salaryPerHour * WORKING_HOURS;
+			/* Calculate salary simple formul. */
+			salary = normalPayment + overtimePayment;
+
+	return 0;
+}

@@ -1,0 +1,5 @@
+ 1! equals approximately              0.95.
+ 3! equals approximately              5.89.
+ 4! equals approximately             23.66.
+ 5! equals approximately            118.64.
+15! equals approximately  1302728358111.71.
