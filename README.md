@@ -3,6 +3,6 @@ CHWS
 
 These files are my Computer Programming with C ( CSE 102 ) assignments.
 
-<strong>Note: Certainly, these homeworks include a lot bugs.
+<strong>Note: These homeworks maybe include a little bugs.
 
-Talayhan</strong>
+talayhan.net</strong>
