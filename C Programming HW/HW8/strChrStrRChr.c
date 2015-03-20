@@ -68,6 +68,17 @@ getCombinationRec(int n, int k){
 	return getCombinationRec(n-1,k-1) + getCombinationRec(n-1,k);
 }
 /*
+* This implementation recursive to calculate factorial.
+* 
+**/
+int calcuateFactorialRec(int n){
+	if (n == 0 || n == 1)
+	{
+		return 1;
+	}
+	return n*calculateFactorialRec(n-1);
+}
+/*
 * This implementation iterative to calculate combination.
 *
 **/

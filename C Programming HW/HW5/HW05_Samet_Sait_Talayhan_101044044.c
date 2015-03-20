@@ -120,7 +120,7 @@ int castFromDoubleToInteger(double castedNumber,int *s,int *i, int *f)
 		*i = floor(castedNumber);
 		*f = (castedNumber - (double)*i) * 10000;
 	}
-	
+	return 0;
 }
 /*----------------------------------------------------------------*/
 /*               Function Implementations                         */

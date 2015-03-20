@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 #define COL_COUNT 8
 #define ROW_CAP 10
